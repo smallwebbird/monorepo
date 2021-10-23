@@ -1,0 +1,17 @@
+{
+  "name": "@top-design/cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "bin": {
+    "top-cli": "./bin/top-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "~8.2.0"
+  }
+}
