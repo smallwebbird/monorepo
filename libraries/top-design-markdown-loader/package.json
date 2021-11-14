@@ -1,0 +1,25 @@
+{
+  "name": "@top-design/markdown-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "~3.0.7",
+    "loader-utils": "~3.1.0",
+    "yaml-front-matter": "~4.1.1",
+    "@babel/parser": "~7.16.2",
+    "@babel/traverse": "~7.16.0",
+    "@babel/types": "~7.16.0",
+    "@babel/generator": "~7.16.0",
+    "@babel/template": "~7.16.0",
+    "@babel/core": "~7.16.0",
+    "@babel/preset-react": "~7.16.0",
+    "@babel/preset-env": "~7.16.0",
+    "prismjs": "~1.25.0"
+  }
+}

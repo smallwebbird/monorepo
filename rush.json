@@ -458,8 +458,8 @@
     //   "reviewCategory": "tools"
     // }
     {
-      "packageName": "@top-design/react",
-      "projectFolder": "apps/top-design",
+      "packageName": "@top-design/web-react",
+      "projectFolder": "apps/top-design-web-react",
       "reviewCategory": "production"
     },
     {
@@ -468,14 +468,19 @@
       "reviewCategory": "library"
     },
     {
-      "packageName": "@smallwebbird/markdown-react-plugin",
-      "projectFolder": "libraries/smallwebbird-markdown-react-plugin",
+      "packageName": "@top-design/markdown-loader",
+      "projectFolder": "libraries/top-design-markdown-loader",
       "reviewCategory": "library"
     },
     {
-      "packageName": "react-demo",
-      "projectFolder": "demos/react-demo",
-      "reviewCategory": "demo"
-    }
+      "packageName": "@top-design/components",
+      "projectFolder": "libraries/top-design-components",
+      "reviewCategory": "library"
+    },
+    // {
+    //   "packageName": "react-demo",
+    //   "projectFolder": "demos/react-demo",
+    //   "reviewCategory": "demo"
+    // }
   ]
 }
