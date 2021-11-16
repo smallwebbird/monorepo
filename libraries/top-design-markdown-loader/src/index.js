@@ -3,7 +3,6 @@ const path = require('path');
 const fs = require('fs');
 const parse = require('./parser/index.js');
 const yamlFront = require('yaml-front-matter');
-const Prism = require('prismjs');
 const traverse = require('@babel/traverse').default;
 const types = require('@babel/types');
 const generator = require('@babel/generator').default;
@@ -32,7 +31,6 @@ module.exports = function (source) {
   const parsedMdDir = this.context;
   const demosDir = path.join(parsedMdDir, './demos');
   const demos = fs.readdirSync(demosDir);
-  let demosCode = '';
   let demoMdContent = [];
   demos.forEach(demo => {
     const demoFullPath = path.join(demosDir, demo);
@@ -121,6 +119,7 @@ module.exports = function (source) {
   const returnSource = `
     export default function () {
       return <div className="td-document">
+      1233
         <div className="td-document-header">
           ${header}
         </div>

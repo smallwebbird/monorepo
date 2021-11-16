@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "✨ root",
+			"path": "../../.."
+		},
+		{
+			"name": "📦 @top-design/components",
+			"path": ".."
+		},
+		{
+			"name": "📦 @top-design/markdown-loader",
+			"path": "../../top-design-markdown-loader"
+		},
+		{
+			"name": "🚀 @top-design/web-react",
+			"path": "../../../apps/top-design-web-react"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": true
+	}
+}

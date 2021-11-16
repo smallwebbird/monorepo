@@ -1,17 +1,12 @@
-<!-- ---
+---
 order: 0
 title:
   zh-CN: 基本用法
   en-US: Basic
---- -->
-
-## zh-CN
-
-基本用法，随着页面滚动，锚点浮动在页面固定位置。
-
-## en-US
-
-Basic usage, as the page scrolls, the anchor point floats in a fixed position on the page.
+desc: 
+  zh-CN: 中文描述
+  en-US: english
+---
 
 ```js
 import { Anchor } from '@arco-design/web-react';

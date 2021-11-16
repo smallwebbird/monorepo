@@ -19,6 +19,7 @@ module.exports = merge(config, {
       "Access-Control-Allow-Origin": "*"
     },
     historyApiFallback: true,
+    watchFiles: [path.resolve(__dirname, '../../../libraries/top-design-markdown-loader/*')]
   },
   resolve: {
     alias: {
@@ -52,8 +53,8 @@ module.exports = merge(config, {
     }),
     new webpack.HotModuleReplacementPlugin(),
     new ReactRefreshWebpackPlugin(),
-    new ExtraWatchWebpackPlugin({
-      dirs: path.join(__dirname, '../../../libraries/top-design-markdown-loader')
-    })
+    // new ExtraWatchWebpackPlugin({
+    //   dirs: path.join(__dirname, '../../../libraries/top-design-markdown-loader')
+    // })
   ]
 });
