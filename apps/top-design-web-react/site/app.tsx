@@ -12,7 +12,6 @@ export const App = () => {
     <div className={prefixCls}>
       <BrowserRouter>
         <Header />
-
         <Container direction="horizontal">
           <Sider />
           <Content />
