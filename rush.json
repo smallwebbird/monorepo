@@ -465,12 +465,14 @@
     {
       "packageName": "@top-design/markdown-loader",
       "projectFolder": "libraries/top-design-markdown-loader",
-      "reviewCategory": "library"
+      "reviewCategory": "library",
+      "shouldPublish": true,
     },
     {
       "packageName": "@top-design/components",
       "projectFolder": "libraries/top-design-components",
-      "reviewCategory": "library"
+      "reviewCategory": "library",
+      "shouldPublish": true
     },
     {
       "packageName": "@smallwebbird/eslint-config",

@@ -6,7 +6,7 @@ import { Container } from './components/container';
 import { Content } from './components/content';
 
 const prefixCls = 'top-design-site';
-const asp = 1;
+console.log(1234);
 export const App = () => {
   return (
     <div className={prefixCls}>
