@@ -17,5 +17,5 @@ export const App = () => {
         </Container>
       </BrowserRouter>
     </div>
-  )
-}
+  );
+};

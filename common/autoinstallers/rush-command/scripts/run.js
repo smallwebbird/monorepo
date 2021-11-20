@@ -1,0 +1,9 @@
+const minimist = require('minimist');
+const path = require('path');
+const execShell = require('child_process').execSync;
+const argv = process.argv.slice(2);
+const args = minimist(argv);
+const { package, exec } = args;
+const baseDir = path.resolve(__dirname, '../../../../');
+const scriptDir = baseDir + '/' + package;
+execShell(`npm run -prefix=${scriptDir} ${exec}`, { stdio: 'inherit' });
