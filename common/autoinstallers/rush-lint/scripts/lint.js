@@ -12,7 +12,7 @@ if (!fs.existsSync(gitPath)) {
     process.exit(1);
 }
 console.log(process.cwd(), __dirname);
-exec(`${commitlintBinPath} --config ${configPath} --edit`, (error, stdout, stderr) => {
+exec(`sh '${commitlintBinPath} --config ${configPath} --edit'`, (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
