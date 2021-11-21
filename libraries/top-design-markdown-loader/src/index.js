@@ -115,7 +115,7 @@ module.exports = function (source) {
     import React from 'react';
     import { DemoCodePreview  } from '@top-design/components';
   `);
-  console.log(42);
+  console.log(4444442);
   const returnSource = `
     export default function () {
       return <div className="td-document">
