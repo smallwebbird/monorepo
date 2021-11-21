@@ -10,6 +10,7 @@ if (!fs.existsSync(gitPath)) {
     console.error('no valid .git path');
     process.exit(1);
 }
+console.log(process.cwd());
 
 main();
 
