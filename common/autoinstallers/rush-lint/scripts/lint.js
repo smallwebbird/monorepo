@@ -12,9 +12,13 @@ if (!fs.existsSync(gitPath)) {
     process.exit(1);
 }
 console.log(process.cwd(), __dirname);
-exec(`"${commitlintBinPath}"`, { stdio: 'inherit' }, function (err, stdout) {
-  console.log(err);
-  console.log(stdout);
+exec(commitlintBinPath, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`exec error: ${error}`);
+    return;
+  }
+  console.log(`stdout: ${stdout}`);
+  console.error(`stderr: ${stderr}`);
 });
 
 // main();
