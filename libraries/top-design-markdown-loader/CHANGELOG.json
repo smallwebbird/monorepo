@@ -2,6 +2,36 @@
   "name": "@top-design/markdown-loader",
   "entries": [
     {
+      "version": "1.0.7",
+      "tag": "@top-design/markdown-loader_v1.0.7",
+      "date": "Sun, 21 Nov 2021 08:26:19 GMT",
+      "comments": {}
+    },
+    {
+      "version": "1.0.6",
+      "tag": "@top-design/markdown-loader_v1.0.6",
+      "date": "Sun, 21 Nov 2021 08:00:47 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.0.4",
+      "tag": "@top-design/markdown-loader_v1.0.4",
+      "date": "Sun, 21 Nov 2021 07:50:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.3",
       "tag": "@top-design/markdown-loader_v1.0.3",
       "date": "Sun, 21 Nov 2021 07:43:25 GMT",
