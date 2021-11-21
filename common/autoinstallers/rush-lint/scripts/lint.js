@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const execa = require('execa');
-const exec = require('child_process').exec;
+const execFile = require('child_process').execFile;
 
 const gitPath = path.resolve(__dirname, '../../../../.git');
 const configPath = path.resolve(__dirname, './commitlint.config.js');
@@ -12,15 +12,12 @@ if (!fs.existsSync(gitPath)) {
     process.exit(1);
 }
 console.log(process.cwd(), __dirname);
-exec(`sh '${commitlintBinPath} --config ${configPath} --edit'`, (error, stdout, stderr) => {
+const child = execFile(commitlintBinPath, ['--version'], (error, stdout, stderr) => {
   if (error) {
-    console.error(`exec error: ${error}`);
-    return;
+    throw error;
   }
-  console.log(`stdout: ${stdout}`);
-  console.error(`stderr: ${stderr}`);
+  console.log(stdout);
 });
-
 // main();
 
 // async function main() {
