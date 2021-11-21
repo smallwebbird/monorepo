@@ -6,4 +6,4 @@ const commitlintBinPath = path.resolve(__dirname, '../node_modules/.bin/commitli
 console.log(commitlintBinPath);
 const commitlintConfig = path.resolve(__dirname, './commitlint.config.js');
 
-execShell(`ls`, { stdio: 'inherit' });
+execShell(`node -v`, { stdio: 'inherit' });
