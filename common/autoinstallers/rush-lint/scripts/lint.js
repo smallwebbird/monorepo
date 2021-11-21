@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const execa = require('execa');
+const execSync = require('child_process').execSync;
 
 const gitPath = path.resolve(__dirname, '../../../../.git');
 const configPath = path.resolve(__dirname, './commitlint.config.js');
@@ -10,7 +11,8 @@ if (!fs.existsSync(gitPath)) {
     console.error('no valid .git path');
     process.exit(1);
 }
-console.log(process.cwd());
+// console.log(process.cwd(), __dirname);
+// execSync(commitlintBinPath, { stdio: 'inherit', cwd: __dirname });
 
 main();
 
@@ -18,6 +20,7 @@ async function main() {
     try {
         await execa('bash', [commitlintBinPath, '--config', configPath, '--cwd', path.dirname(gitPath), '--edit'], {
             stdio: 'inherit',
+            cwd: __dirname
         });
     } catch (e) {
         process.exit(1);
