@@ -8,7 +8,7 @@ const configPath = path.resolve(__dirname, './commitlint.config.js');
 const commitlintBinPath = path.resolve(__dirname, '../node_modules/.bin/commitlint');
 
  try {
-  execSync(`${commitlintBinPath} --edit`, {stdio: 'inherit' })
+  execSync(`${commitlintBinPath} --edit --config ${configPath}`, { shell: true })
  } catch(e){
    console.log(e)
  }
