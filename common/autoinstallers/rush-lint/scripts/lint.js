@@ -10,6 +10,7 @@ const commitlintBinPath = path.resolve(__dirname, '../node_modules/.bin/commitli
 
 exec(`bash ${commitlintBinPath}`, function (err, std) {
   console.log(err);
+  console.log(std);
 })
 
 // if (!fs.existsSync(gitPath)) {
