@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const execa = require('execa');
-const { execSync } = require('child_process');
+const { spawnSync: execSync } = require('child_process');
 
 const gitPath = path.resolve(__dirname, '../../../../.git');
 const configPath = path.resolve(__dirname, './commitlint.config.js');
