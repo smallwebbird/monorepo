@@ -10,7 +10,7 @@ if (!fs.existsSync(gitPath)) {
     console.error('no valid .git path');
     process.exit(1);
 }
-
+console.log(123);
 //  try {
   spawnSync(`${commitlintBinPath} --edit --config ${configPath} --cwd ${path.dirname(gitPath)}`, { shell: true, stdio: 'inherit' })
 //  } catch(e){
