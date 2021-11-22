@@ -3,12 +3,10 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': ^15.0.0
   '@commitlint/config-conventional': ^15.0.0
-  execa: ^5.1.1
 
 dependencies:
   '@commitlint/cli': 15.0.0
   '@commitlint/config-conventional': 15.0.0
-  execa: 5.1.1
 
 packages:
 
