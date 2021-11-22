@@ -8,7 +8,7 @@ const configPath = path.resolve(__dirname, './commitlint.config.js');
 const commitlintBinPath = path.resolve(__dirname, '../node_modules/.bin/commitlint');
 
 
-exec(`bash ../node_modules/.bin/commitlint`, function (err, std) {
+exec(`bash ${commitlintBinPath}`, function (err, std) {
   console.log(err);
 })
 
