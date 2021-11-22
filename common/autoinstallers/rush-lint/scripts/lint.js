@@ -11,10 +11,10 @@ if (!fs.existsSync(gitPath)) {
     process.exit(1);
 }
 
- try {
+//  try {
   spawnSync(`${commitlintBinPath} --edit --config ${configPath} --cwd ${path.dirname(gitPath)}`, { shell: true, stdio: 'inherit' })
- } catch(e){
-   console.log(e);
-   process.exit(1);
- }
+//  } catch(e){
+//    console.log(e);
+//    process.exit(1);
+//  }
 
