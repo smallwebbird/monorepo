@@ -1,14 +1,14 @@
 const path = require('path');
 const fs = require('fs');
 const execa = require('execa');
-const { spawnSync: execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 
 const gitPath = path.resolve(__dirname, '../../../../.git');
 const configPath = path.resolve(__dirname, './commitlint.config.js');
 const commitlintBinPath = path.resolve(__dirname, '../node_modules/.bin/commitlint');
 
  try {
-  execSync(`${commitlintBinPath} --edit --config ${configPath}`, { shell: true })
+  spawnSync(`${commitlintBinPath} --edit --config ${configPath}`, { shell: true, stdio: 'inherit' })
  } catch(e){
    console.log(e)
  }
