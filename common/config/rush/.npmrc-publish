@@ -19,4 +19,4 @@
 
 registry=https://registry.npmjs.org/
 always-auth=true
-//registry.npmjs.org/:_authToken=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
+//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
