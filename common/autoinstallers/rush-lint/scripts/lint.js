@@ -12,7 +12,8 @@ if (!fs.existsSync(gitPath)) {
 }
 console.log(123);
 //  try {
-  spawnSync(commitlintBinPath, ['--edit', '--config', configPath, '--cwd', path.dirname(gitPath)], { shell: true, stdio: 'inherit' })
+  const obj =  spawnSync(commitlintBinPath, ['--edit', '--config', configPath, '--cwd', path.dirname(gitPath)], { shell: true, stdio: 'inherit' });
+  console.log(obj)
 //  } catch(e){
 //    console.log(e);
 //    process.exit(1);
