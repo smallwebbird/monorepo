@@ -10,14 +10,8 @@ if (!fs.existsSync(gitPath)) {
     console.error('no valid .git path');
     process.exit(1);
 }
-console.log(122223);
-//  try {
-  const { status } =  spawnSync(commitlintBinPath, ['--edit', '--config', configPath, '--cwd', path.dirname(gitPath)], { shell: true, stdio: 'inherit' });
-  if (status !== 0) {
-    process.exit(1);
-  }
-//  } catch(e){
-//    console.log(e);
-//    process.exit(1);
-//  }
+const { status } =  spawnSync(commitlintBinPath, ['--edit', '--config', configPath, '--cwd', path.dirname(gitPath)], { shell: true, stdio: 'inherit' });
+if (status !== 0) {
+  process.exit(1);
+}
 

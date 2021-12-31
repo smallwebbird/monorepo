@@ -478,6 +478,11 @@
       "packageName": "@smallwebbird/eslint-config",
       "projectFolder": "tools/eslint-config",
       "reviewCategory": "tools"
+    },
+    {
+      "packageName": "@smallwebbird/webpack-config",
+      "projectFolder": "tools/webpack-config",
+      "reviewCategory": "tools"
     }
     // {
     //   "packageName": "react-demo",
