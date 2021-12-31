@@ -6,8 +6,9 @@ import { Container } from './components/container';
 import { Content } from './components/content';
 
 const prefixCls = 'top-design-site';
-console.log(1234);
 export const App = () => {
+  console.log(555);
+  console.log(666);
   return (
     <div className={prefixCls}>
       <BrowserRouter>

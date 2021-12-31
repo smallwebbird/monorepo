@@ -28,7 +28,7 @@
       "autoinstallerName": "rush-lint",
 
       // This will invoke common/autoinstallers/rush-prettier/node_modules/.bin/pretty-quick
-      "shellCommand": "node  common/autoinstallers/rush-lint/scripts/lint.js"
+      "shellCommand": "lint-staged"
     }
     // {
     //   /**
