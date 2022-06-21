@@ -2,6 +2,18 @@
   "name": "@top-design/markdown-loader",
   "entries": [
     {
+      "version": "1.0.12",
+      "tag": "@top-design/markdown-loader_v1.0.12",
+      "date": "Tue, 21 Jun 2022 16:08:45 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "test"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.11",
       "tag": "@top-design/markdown-loader_v1.0.11",
       "date": "Sun, 21 Nov 2021 09:03:44 GMT",
