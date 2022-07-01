@@ -1,6 +1,55 @@
 # Change Log - @top-design/markdown-loader
 
-This log was last generated on Tue, 21 Jun 2022 16:08:45 GMT and should not be manually modified.
+This log was last generated on Tue, 21 Jun 2022 16:54:22 GMT and should not be manually modified.
+
+## 1.0.19
+Tue, 21 Jun 2022 16:54:22 GMT
+
+### Patches
+
+- test
+
+## 1.0.18
+Tue, 21 Jun 2022 16:47:31 GMT
+
+### Patches
+
+- test
+
+## 1.0.17
+Tue, 21 Jun 2022 16:39:26 GMT
+
+### Patches
+
+- test
+
+## 1.0.16
+Tue, 21 Jun 2022 16:36:50 GMT
+
+### Patches
+
+- test
+
+## 1.0.15
+Tue, 21 Jun 2022 16:27:12 GMT
+
+### Patches
+
+- test
+
+## 1.0.14
+Tue, 21 Jun 2022 16:21:40 GMT
+
+### Patches
+
+- test
+
+## 1.0.13
+Tue, 21 Jun 2022 16:13:50 GMT
+
+### Patches
+
+- test
 
 ## 1.0.12
 Tue, 21 Jun 2022 16:08:45 GMT

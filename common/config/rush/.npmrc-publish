@@ -18,5 +18,5 @@
 #
 
 registry=https://registry.npmjs.org/
-always-auth=true
-//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
+always-auth=false
+//registry.npmjs.org/:_authToken=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

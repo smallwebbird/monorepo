@@ -8,6 +8,7 @@ const types = require('@babel/types');
 const generator = require('@babel/generator').default;
 const template = require('@babel/template').default;
 const core = require('@babel/core');
+const a222bcd  = require('')
 
 
 module.exports = function (source) {
@@ -115,8 +116,7 @@ module.exports = function (source) {
     import React from 'react';
     import { DemoCodePreview  } from '@top-design/components';
   `);
-  console.log(444993335552233322);
-  const returnSource = `
+  console.log(444993335552233322, 2233322);
     export default function () {
       return <div className="td-document">
       1233

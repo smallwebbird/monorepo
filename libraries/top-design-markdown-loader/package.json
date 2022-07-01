@@ -1,6 +1,6 @@
 {
   "name": "@top-design/markdown-loader",
-  "version": "1.0.12",
+  "version": "1.0.19",
   "description": "",
   "main": "./src/index.js",
   "scripts": {

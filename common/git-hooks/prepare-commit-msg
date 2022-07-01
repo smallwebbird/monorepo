@@ -1,3 +1,3 @@
 #!/bin/sh
-
-# exec < /dev/tty && common/autoinstallers/rush-lint/node_modules/.bin/cz --hook  || true
+# 
+# exec common/autoinstallers/rush-lint/node_modules/.bin/cz --hook  || true
